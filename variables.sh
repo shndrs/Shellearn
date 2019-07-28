@@ -1,6 +1,5 @@
 #! /bin/bash
-echo "Hello World"
-
+#Tip -> Execute Confirmation command = chmod +x [file-name]
 # System Variable
 
 echo $BASH # give us name of the bash or shell
