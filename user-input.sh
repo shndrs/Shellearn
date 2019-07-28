@@ -11,6 +11,9 @@
 # -s secure input text
 # -p same line enterance
 # secure in same line : -sp OR -s -p
+# echo "Enter name : "
+# read
+# echo "Name : $REPLY"
 
 read -p 'Enter your username: ' username
 read -s -p 'Enter your password: ' password
