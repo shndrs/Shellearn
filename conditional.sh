@@ -31,7 +31,7 @@ fi
 echo "Please enter your fullname : "
 
 read -a fullname
-
+    
 if [[ ${fullname[0]} == "sahand" ]]
 then
     echo "your firstname is Sahand, Cool! So am i"
