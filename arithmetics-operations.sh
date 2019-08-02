@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# for Integer numbers
+
 num1=41
 num2=14
 
