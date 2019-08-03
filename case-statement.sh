@@ -1,8 +1,8 @@
 #! /bin/bash
 
-vehicle=$1
+f1_team=$1
 
-case $vehicle in
+case $f1_team in
     "Ferrari" )
         echo "Ferrari Vettel and Leclerc" ;;
     "RedBull" )
