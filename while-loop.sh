@@ -14,6 +14,7 @@ while [ $val -le 100000 ]
 do
     echo "$val"
     val=$(( val*3 ))
+    sleep 1
 done
 
 var=300
