@@ -3,7 +3,7 @@
 echo -e "Enter some character : \c"
 read input
 
-#LANG=C language and locale encoding
+#LANG=C language and locale encoding (LANG environment variable)
 
 case $input in
     [a-z] ) # small letter between a to z
