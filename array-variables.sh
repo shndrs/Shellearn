@@ -14,7 +14,7 @@ echo -e "These are my favorite OS', what's yours ? \c"
 read fave_os
 os[3]=$fave_os
 
-echo 'which one is the least favorite in the list below:'
+echo 'which one is your least favorite in the list below:'
 echo "${os[@]}"
 read least_fave_os
 

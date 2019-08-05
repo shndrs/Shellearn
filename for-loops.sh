@@ -19,3 +19,21 @@ for ((k=0;k<=10;k++))
 do
     echo "$num x $k = `expr $num \* $k`"
 done
+
+# execute command
+
+for command in ls pwd date
+do
+    echo "-------------$command------------"
+    $command
+done
+
+echo "--------------All directories----------------"
+
+for item in *
+do
+    if [ -d $item ]
+    then
+        echo $item
+    fi 
+done
